@@ -1,0 +1,45 @@
+
+# 📄 Détection de Plagiat avec MapReduce
+
+Ce projet permet de détecter les similarités entre documents (TXT, DOCX, PDF) en simulant un environnement distribué avec l’algorithme MapReduce. Une interface Streamlit facilite l’utilisation.
+
+## 🚀 Lancer le projet
+
+### 1. Cloner le dépôt
+
+```bash
+git clone https://github.com/ton-utilisateur/tp-plagiat.git
+cd tp-plagiat
+````
+
+### 2. (Optionnel) Créer un environnement virtuel
+
+```bash
+python -m venv venv
+venv\Scripts\activate   # Sous Windows
+# ou
+source venv/bin/activate  # Sous Linux/macOS
+```
+
+### 3. Installer les dépendances
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Lancer l'application Streamlit
+
+```bash
+streamlit run main.py
+```
+
+L’application s’ouvrira dans votre navigateur à l’adresse suivante : [http://localhost:8501](http://localhost:8501)
+
+---
+
+✅ Ce projet prend en charge les fichiers `.txt`, `.docx` et `.pdf`, et permet de simuler deux scénarios :
+
+* 📁 Scénario 1 : tous les fichiers sont sur un seul serveur
+* 🌐 Scénario 2 : fichiers répartis sur plusieurs serveurs
+
+```
