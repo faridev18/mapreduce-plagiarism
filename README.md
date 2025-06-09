@@ -8,8 +8,8 @@ Ce projet permet de détecter les similarités entre documents (TXT, DOCX, PDF) 
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/ton-utilisateur/tp-plagiat.git
-cd tp-plagiat
+git clone https://github.com/faridev18/mapreduce-plagiarism.git
+cd mapreduce-plagiarism
 ```
 
 
