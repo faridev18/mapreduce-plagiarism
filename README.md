@@ -27,11 +27,4 @@ streamlit run main.py
 
 L’application s’ouvrira dans votre navigateur à l’adresse suivante : [http://localhost:8501](http://localhost:8501)
 
----
 
-✅ Ce projet prend en charge les fichiers `.txt`, `.docx` et `.pdf`, et permet de simuler deux scénarios :
-
-* 📁 Scénario 1 : tous les fichiers sont sur un seul serveur
-* 🌐 Scénario 2 : fichiers répartis sur plusieurs serveurs
-
-```
