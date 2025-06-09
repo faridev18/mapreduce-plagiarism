@@ -10,24 +10,16 @@ Ce projet permet de détecter les similarités entre documents (TXT, DOCX, PDF) 
 ```bash
 git clone https://github.com/ton-utilisateur/tp-plagiat.git
 cd tp-plagiat
-````
-
-### 2. (Optionnel) Créer un environnement virtuel
-
-```bash
-python -m venv venv
-venv\Scripts\activate   # Sous Windows
-# ou
-source venv/bin/activate  # Sous Linux/macOS
 ```
 
-### 3. Installer les dépendances
+
+### 2. Installer les dépendances
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Lancer l'application Streamlit
+### 3. Lancer l'application Streamlit
 
 ```bash
 streamlit run main.py
